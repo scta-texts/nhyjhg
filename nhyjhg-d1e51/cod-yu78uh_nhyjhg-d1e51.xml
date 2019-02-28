@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 1 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 1 [London Transcription]</title>
+          <date when="2019-02-28">February 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-02-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="28-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e51-Dd1e99">
+        <head xml:id="nhyjhg-d1e51-Hd1e101">Canon 1</head>
+        <p xml:id="nhyjhg-d1e51-d1e104">
+          <lb ed="#B" n="1"/>1. Firmiter credimus et simpliciter confitemur quod unus solus est uerus Deus, eternus, immensus, omnipotens, 
+          <lb ed="#B"/>incommutabilis, incomprehensibilis et ineffabilis, Pater et Filius et Spiritus Sanctus, tres quidem persone set una essen<lb ed="#B"/>tia 
+          substantia seu natura simplex omnino. Pater a nullo, Filius autem a solo Patre, ac Spiritus Sanctus pariter ab utroque 
+          <lb ed="#B"/>absque initio semper et fine. Pater generans, Filius nascens et Spiritus Sanctus procedens, consubstantiales et coequales, 
+          <lb ed="#B"/>coomnipotentes et coeterni, unum uniuersorum principium, creator omnium inuisibilium et uisibilium, 
+          <lb ed="#B"/>spiritualium et corporalium, qui sua omnipotenti uirtute simul ab initio temporis utramque de 
+          <lb ed="#B"/>nichilo condidit creaturam spiritualem et corporalem, angelicam uidelicet et mundanam, ac deinde huma<lb ed="#B"/>nam 
+          quasi communem ex spiritu et corpore constitutam. Diabolus enim et demones alii a Deo quidem na<lb ed="#B"/>tura 
+          creati sunt boni, set ipsi per se facti sunt mali. Homo uero diaboli suggestione peccauit. Hec Sancta Trinitas, 
+          <lb ed="#B"/>secundum communem essentiam indiuidua et secundum personales proprietates discreta, per Moysen et sanctos prophetas aliosque 
+          <lb ed="#B"/>famulos suos iuxta ordinatissimam dispositionem temporum, doctrinam humano generi tribuit salu<lb ed="#B"/>tarem. 
+          et tandem unigenitus Dei Filius Iesus Christus, a tota Trinitate communiter incarnatus, ex Maria '
+          <lb ed="#B"/>semper uirgine Spiritus Sancti operatione conceptus, uerus homo factus, ex anima rationali et humana carne compositus, una 
+          <lb ed="#B"/>in duabus naturis persona, uiam uite manifestius demonstrauit. Qui cum secundum diuinitatem sit immortalis 
+          <lb ed="#B"/>et impassibilis, idem ipse secundum humanitatem factus est passibilis et mortalis, qui etiam pro salute humani generis 
+          <lb ed="#B"/>in ligno crucis passus et mortuus, descendit ad inferos, resurrexit a mortuis et ascendit in celum; set descen<lb ed="#B"/>dit 
+          in anima et resurrexit in carne, ascenditque pariter in utroque, uenturus in fine seculi iudicare uiuos 
+          <lb ed="#B"/>et mortuos et redditurus singulis secundum opera sua, tam reprobis quam electis. Qui omnes cum suis propriis resurgent cor<lb ed="#B"/>poribus 
+          que nunc gestant, ut recipiant secundum merita sua, siue bona fuerint siue mala, illi cum 
+          <lb ed="#B"/>diabolo penam perpetuam et isti cum Christo gloriam sempiternam. Vna uero est fidelium uniuersalis ecclesia, 
+          <lb ed="#B"/>extra quam nullus omnino saluatur, in qua idem ipse sacerdos est sacrificium 2 Iesus Christus, cuius corpus et sanguis in sacramento 
+          <lb ed="#B"/>altaris sub speciebus panis et uini ueraciter continentur, transubstantiatis pane in corpus et uino in 
+          <lb ed="#B"/>sanguinem potestate diuina, ut ad perficiendum mysterium unitatis accipiamus ipsi de suo quod ipse 
+          <lb ed="#B"/>accepit de nostro. Et hoc utique sacramentum nemo potest conficere, nisi sacerdos qui rite fuerit ordinatus secundum claues ecclesie,
+          <lb ed="#B"/>quas ipse concessit apostolis eorumque successoribus Iesus Christus. Sacramentum uero baptismi, quod ad inuocationem indiuidue 
+          <lb ed="#B"/>trinitatis, uidelicet Patris et Filii et Spiritus Sancti, consecratur in aqua tam paruulis quam adultis, in forma ecclesie a quocumque rite colla<lb ed="#B"/>tum 
+          proficit ad salutem. Et si post susceptionem baptismi quisquam prolapsus fuerit in peccatum, per ueram semper potest penitentiam 
+          <lb ed="#B"/>reparari. Non solum autem uirgines et continentes, uerum etiam coniugati, per fidem rectam et operationem bonam placentes Deo, ad
+          <pb ed="#B" n="28-v"/>
+          <lb ed="#B"/>eternam merentur beatitudinem peruenire.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
