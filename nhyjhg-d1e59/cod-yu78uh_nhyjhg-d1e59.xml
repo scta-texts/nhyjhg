@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 2 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 2 [London Transcription]</title>
+          <date when="2019-02-28">February 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-02-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="28-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e59">
+        <head>Canon 2</head>
+        <p>
+          Dampnamus ergo et reprobamus libellum siue trac<lb ed="#B" n="2"/>tatum, 
+          quem abbas Ioachim edidit contra magistrum Petrum Lombardum de unitate seu essentia Trinitatis ap<lb ed="#B"/>pellans 
+          ipsum hereticum et insanum, pro eo quod in suis dixit Sententiis quoniam ‘ quedam summa res ’ est Pater et Filius et 
+          <lb ed="#B"/>Spiritus Sanctus, et illa non est generans neque genita neque procedens.2 Vnde asserit quod ille non tam Trinitatem quam 
+          <lb ed="#B"/>quaternitatem astruebat in Deo, uidelicet tres personas et illam communem essentiam quasi quartam, manifeste pro<lb ed="#B"/>testans 
+          quod nulla res est que sit Pater et Filius et Spiritus Sanctus, nec essentia nec substantia nec natura, quamuis concedat 
+          <lb ed="#B"/>quod Pater et Filius et Spiritus Sanctus sunt una essentia, una substantia unaque natura. Verum unitatem huiusmodi non ueram et propriam, 
+          <lb ed="#B"/>sed quasi collectiuam et similitudinariam esse fatetur,3 quemadmodum dicuntur multi homines unus populus et mul<lb ed="#B"/>ti 
+          fideles una ecclesia, iuxta illud ‘ Multitudinis credentium erat cor unum et anima una 5 4 et ‘Qui adheret Deo unus spiritus est’.5 Item 
+          <lb ed="#B"/>‘Qui plantat et qui rigat unum sunt ’,6 et ‘ Omnes unum corpus sumus in Christo ’.7 Rursus in libro Regum ‘ Populus meus et populus tuus 
+          <lb ed="#B"/>unum sunt ’.8 Ad hanc autem suam sententiam astruendam illud potissimum uerbum inducit quod Christus de fidelibus inquit 
+          <lb ed="#B"/>in Euangelio ‘ Volo, Pater, ut sint unum in nobis sicut et nos unum sumus, ut sint consummati in unum ’.9 Non enim, ut 
+          <lb ed="#B"/>ait, fideles Christi sunt unum, idest una quedam res que communis sit omnibus, set modo sunt unum, idest una ecclesia propter cat<lb ed="#B"/>holice 
+          fidei unitatem, et tandem unum regnum propter unionem indissolubilis caritatis, quemadmo<lb ed="#B"/>dum 
+          in canonica Joannis apostoli epistola legitur ‘ Quia tres sunt qui testimonium dant in celo, Pater, Verbum et Spiritus Sanctus; et hii tres 
+          <lb ed="#B"/>unum sunt’,10 statimque subiungit ‘Et tres sunt qui testimonium dant in terra, spiritus, aqua et sanguis, et hii tres . unum sunt ’,n sicut 
+          <lb ed="#B"/>in quibusdam codicibus inuenitur.12 Nos autem, sacro uniuersali concilio approbante, credimus et confitemur cum 
+          <lb ed="#B"/>Petro quod una ! quedam summa res ’ est, incomprehensibilis quidem et ineffabilis, que ueraciter est Pater et Filius 
+          <lb ed="#B"/>et Spiritus Sanctus, tres simul persone ac singillatim quelibet earundem. Et ideo in Deo Trinitas est solummodo, non quaternitas, 
+          <lb ed="#B"/>quia quelibet trium personarum est illa res, uidelicet substantia, essentia seu natura diuina, que sola est uniuersorum 
+          <lb ed="#B"/>principium, preter quam aliud inueniri non potest, et illa res non est generans neque genita neque procedens, set est 
+          <lb ed="#B"/>Pater qui generat et Filius qui gignitur et Spiritus Sanctus qui procedit, ut distinctiones sint in personis et unitas in natura. Licet igitur 
+          <lb ed="#B"/>alius sit Pater, alius Filius et alius Spiritus Sanctus, non tamen aliud, set id quod est Pater et Filius et Spiritus Sanctus idem omnino, ut secundum orthodoxam et catho<lb ed="#B"/>licam 
+          fidem consubstantiales esse credantur. Pater enim ab eterno Filium generando suam substantiam ei dedit iuxta quod ipse 
+          <lb ed="#B"/>testatur ‘ Pater quod dedit michi maius omnibus est ’.13 At dici non potest quod partem sue substantie illi dederit et partem reti<lb ed="#B"/>nuerit 
+          ipse sibi, cum substantia Patris indiuisi- bilis sit, utpote simplex omnino. Set nec dici potest quod Pater 
+          <lb ed="#B"/>in Filium transtulerit suam substantiam generando, quasi sic dederit eam Filio quod non retinuerit ipsam sibi; 
+          <lb ed="#B"/>alioquin desiisset esse substantia. Patet ergo quod sine ulla diminutione Filius nascendo substantiam Patris accepit,
+          <pb ed="#B" n="29-r"/>
+          <lb ed="#B"/>et ita Pater et Filius habent eandem substantiam, et sic eadem res est Pater et Filius necnon et Spiritus Sanctus ab utroque procedens. Cum ergo 
+          <lb ed="#B"/>Veritas pro fidelibus suis orat ad Patrem ‘ Volo, inquiens, ut ipsi sint unum in nobis sicut et nos unum sumus ’,14 hoc nomen 
+          <lb ed="#B"/>‘ unum ’ pro fidelibus quidem accipitur, ut intelligatur unio caritatis in gratia, pro personis uero diuinis, ut at<lb ed="#B"/>tendatur 
+          indentitatis unitas in natura, quemadmodum alibi Veritas ait ‘ Estote perfecti sicut et Pater <unclear>videtur</unclear> 
+          <lb ed="#B"/>celestis perfectus est ’,15 ac si diceret manifestius ‘ Estote perfecti ’ perfectione gratie, ‘ sicut Pater uester celestis perfectus est ’ perfectione 
+          <lb ed="#B"/>nature, utraque uidelicet suo modo, quia inter creatorem et creaturam non potest tanta similitudo notari, quin inter 
+          <lb ed="#B"/>eos maior sit dissimilitudo notanda. Si quis igitur sententiam uel doctrinam prefati Ioachim in hac parte defen<lb ed="#B"/>dere 
+          uel approbare presumpserit tamquam hereticus ab omnibus confutetur. In nullo tamen per hoc Florensi monasterio, cuius ipse 
+          <lb ed="#B"/>Ioachim extitit institutor, uolumus derogari, quoniam et regularis est institutio et obseruantia 
+          <lb ed="#B"/>salutaris, maxime cum idem Ioachim omnia scripta sua nobis assignari mandauerit apostolice sedes iudicio appro<lb ed="#B"/>banda 
+          seu etiam corrigenda, dictans epistolam 16 cui propria manu subscripsit, in qua firmiter confitetur se illam 
+          <lb ed="#B"/>fidem tenere quam Romana tenet ecclesia que disponente Domino cunctorum fidelium mater est et magistra.17 Reproba<lb ed="#B"/>mus 
+          etiam et dampnamus peruersissimum dogma impii Amalrici,18 cuius mentem sic pater mendacii excecauit, ut eius 
+          <lb ed="#B"/>doctrina non tam heretica censenda sit quam insana.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
