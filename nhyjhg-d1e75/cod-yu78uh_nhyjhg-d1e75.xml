@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 4 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 4 [London Transcription]</title>
+          <date when="2019-03-06">March 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="30-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e75">
+        <head>Canon 4</head>
+        <p>
+          <lb ed="#B"/>Licet graecos diebus nostris ad obedientiam sedis apostolice reuertentes fouere ac honorare uelimus mores ac ritus
+          <lb ed="#B"/>eorum quantum cum deo possumus sustinendo in his tamen illis deferre nec uolumus nec debemus quae periculum generant animarum et 
+          <lb ed="#B"/>ecclesiastice derogant honestati Postquam enim Grecorum ecclesia cum quibusdam complicibus et fautoribus suis ab obedientia sedis apostolice se 
+          <lb ed="#B"/>substraxit in tantum graeci ceperunt abhominari latinos quod inter alia quae in derogationem eorum impie committebant si quando sacerdo<lb ed="#B"/>tes 
+          latini super eorum celebrassent altaria non prius ipsi sacrificare uolebant in illis quam ea tanquam per hoc inquinata la<lb ed="#B"/>uissent 
+          Baptizatos etiam a latinis ipsi graeci rebaptizare ausu nefario presumebant et adhuc sicut ac<lb ed="#B"/>cepimus 
+          quidam haec agere non uerentur Volentes igitur tantum ab ecclesia dei scandalum amouere sacro suadente concilio 
+          <lb ed="#B"/>districte praecipimus ut talia de cetero non praesumant conformantes se tanquam obedientie filii sacrosancte Romane ecclesie matri 
+          <lb ed="#B"/>suae ut sit  unum ouile et unus pastor b1 Si quis autem aliquid tale presumpserit excommunicationis mucrone percussus ab omni officio et 
+          <lb ed="#B"/>beneficio ecclesiastico deponatur
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
