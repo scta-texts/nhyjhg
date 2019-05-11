@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 71 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 71 [Bodmer Transcription]</title>
+          <date when="2019-05-11">May 11, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-05-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="40-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e622">
+        <head>Canon 71</head>
+        <p>71. Ad liberandam Terram Sanctam de manibus impiorum, ardenti desiderio
+          aspirantes, de prudentum uirorum consilio, qui plene nouerunt circumstantias temporum
+          et locorum, sacro approbante concilio diffinimus ut ita crucesignati se preparent, quod in
+          kalendis Iunii sequentis post proximum, omnes qui disposuerunt transire per mare
+          conueniant in regnum Sicilie; alii, sicut oportuerit et decuerit, apud Brundusium et alii
+          apud Messanam et partes utrobique uicinas, ubi et nos personaliter Domino annuente
+          disposuimus tunc adesse, quatenus nostro consilio et auxilio exercitus christianus
+          salubriter ordinetur, cum benedictione diuina et apostolica profecturus. Ad eundem
+          quoque terminum se studeant prepa- rare qui proposuerunt proficisci per terram,
+          significaturi hoc interim nobis, ut eis ad consilium et auxilium legatum idoneum de
+          nostro latere concedamus. Sacerdotes autem et alii clerici, qui fuerint in exercitu
+          christiano, tam subditi quam prelati, orationi et exhortationi diligenter insistant, docentes
+          eos uerbo pariter et exemplo, ut timorem et amorem diuinum semper habeant ante
+          oculos, ne quid dicant aut faciant quod diuinam maiestatem offendat. Et si aliquando
+          lapsi fuerint in peccatum, per ueram penitentiam mox resurgant, gerentes humilitatem
+          cordis et corporis, et tam in uictu quam in uestitu mediocritatem seruantes,
+          dissensiones et
+          emulationes omnino uitando, rancore ac liuore a se penitus relegatis, ut sic spiritualibus
+          et materialibus armis muniti, aduersus hostes fidei securius prelientur, non de sua
+          presumentes potentia, set de diuina uirtute sperantes. Ipsis autem clericis indulgemus
+          ut beneficia sua integre percipiant per triennium ac si essent in ecclesiis residentes et,
+          si necesse fuerit, ea per idem tempus pignori ualeant obligare. Ne igitur hoc sanctum
+          propositum impediri uel retardari contingat, uniuersis ecclesiarum prelatis districte
+          precipimus ut singuli per loca sua illos qui signum crucis disposuerunt resumere ac tam
+          ipsos quam alios crucesignatos et quos adhuc signari contigerit, ad reddendum Domino
+          uota sua diligenter moneant et inducant et, si necesse fuerit, per excommunicationis in
+          personas et interdicti sententias in terras ipsorum, omni tergiuersatione cessante,
+          compellant, illis dumtaxat exceptis, quibus tale impedimentum occurrerit, propter quod
+          secundum sedis apostolice prouidentiam, uotum eorum commutari merito debeat uel
+          differri. Ad hec ne quid in negotio Iesu Christi de contingentibus omittatur, uolumus et
+          mandamus ut patriache, archiepiscopi, episcopi, abbates, et alii qui curam optinent
+          animarum, studiose proponant commissis sibi populis uerbum crucis, obsecrantes per
+          Patrem et Filium et Spiritum Sanctum, unum solum, uerum, eternum Deum, reges,
+          duces, principes, marchiones, comites et barones aliosque magnates, necnon
+          communia ciuitatum, uillarum et oppidorum, ut qui
+          personaliter non accesserint in subsidium Terre Sancte, competentem conferant
+          numerum bellatorum cum expensis ad triennium necessariis secundum proprias
+          facultates, in remissionem peccatorum suorum, prout in generalibus litteris est
+          expressum et ad maiorem cautelam etiam inferius exprimetur. Cuius remissionis
+          uolumus esse participes non solum eos qui ad hoc naues proprias exhibebunt, set et
+          illos qui propter hoc opus naues studuerint fabricare. Renuentibus autem, si qui forte
+          tam ingrati fuerint Domino Deo nostro, ex parte apostolica firmiter protestentur, ut sciant
+          se super hoc nobis in nouissimo districti examinis die coram tremendo iudice
+          responsuros, prius tamen considerantes qua conscientia quaue securitate comparere
+          poterunt coram unigenito Dei filio Iesu Christo, cui ‘ omnia dedit Pater in manus,&#39; si ei
+          pro peccatoribus crucifixo seruire renuerint in hoc negotio quasi proprie sibi proprio,
+          cuius munere uiuunt, cuius beneficio sustentantur, quin etiam cuius sanguine sunt
+          redempti. 2 Ne uero in humeros hominum honera grauia et importabilia imponere
+          uideamur, que digito nostro mouere nolimus, similes illis qui dicunt ‘ utique ’, set non
+          faciunt, 3 ecce nos de hiis que ultra necessarias et moderatas expensas potuimus
+          reseruare, triginta milia librarum in hoc opus concedimus et donamus, preter nauigium
+          quod crucesignatis de urbe atque uicinis partibus conferemus, assignaturi nihilominus
+          ad hoc ipsum tria milia marcharum argenti, que apud nos de quorundam
+          fidelium eleemosynis remanserunt, aliis in necessitates et utilitates predicte terre per
+          manus felicis memorie Alberti Hierosolymitani patriarche ac magistrorum Templi et
+          Hospitalis fideliter distributis. Cupientes autem 5 alios ecclesiarum prelatos necnon
+          clericos uniuersos et in merito et in premio habere participes et consortes, ex communi
+          concilii approbatione statuimus ut omnes omnino clerici, tam subditi quam prelati,
+          uicesimam ecclesiasticorum prouentuum usque ad triennium integre conferant in
+          subsidium Terre Sancte, per manus eorum qui ad hoc apostolica fuerint prouidentia 3
+          ordinati; quibusdam dumtaxat religiosis exceptis, ab hac prestatione merito eximendis,
+          illisque similiter qui assumpto uel assumendo crucis signaculo, sunt personaliter
+          profecturi. Nos autem et fratres nostri sancte Romane ecclesie cardinales plenarie
+          decimam persoluemus, sciantque se omnes ad hoc fideliter obseruandum per
+          excommunicationis sententiam 5 obligatos, ita quod illi qui super hoc fraudem scienter
+          commiserint, sententiam excommunicationis incurrant. Sane quia iusto iudicio celestis
+          imperatoris obsequiis inherentes, speciali decet prerogatiua gaudere, cum tempus
+          proficiscendi annum excedat in modico, crucesignati a collectis
+          uel talliis aliisque grauaminibus sint immunes, quorum ‘ personas et bona post crucem
+          assumptam sub beati Petri et nostra protectione suscepimus, statuentes ut sub
+          archiepiscoporum et episcoporum ac omnium prelatorum ecclesie Dei defensione
+          consistant, propriis nichilominus protectoribus ad hoc specialiter deputatis, ita ut donec
+          de ipsorum obitu uel reditu certissime cognoscatur, integra maneant et quieta; et si
+          quisquam contra presumpserit, censura ecclesiastica compescatur. Si qui uero
+          proficiscentium illuc ad prestandas usuras iuramento tenentur adstricti, creditores
+          eorum ut remittant eis prestitum iuramentum et ab usurarum exactione desistant,
+          eadem precipimus districtione compelli. Quod si quisquam creditorum eos ad
+          solutionem coegerit usurarum, eum ad restitutionem earum simili cogi animaduersione
+          mandamus. Iudeos uero ad remittendas usuras per secularem compelli precipimus
+          potestatem et, donec illas remiserint, ab uniuersis christifidelibus per
+          excommunicationis sententiam eis omnino communio denegetur ’. 1 Hiis autem qui
+          Iudeis debita soluere nequeunt in presenti, sic principes seculares utili dilatione
+          prouideant, quod post iter arreptum, usquequo de ipsorum obitu uel reditu certissime
+          cognoscatur,
+          usurarum incommoda non incurrant, compulsis Iudeis prouentus pignorum quos interim
+          ipsi perceperint, in sortem, expensis deductis necessariis, computare, cum huiusmodi
+          beneficium non multum uideatur habere dispendii, quia solutionem sic prorogat, quod
+          debitum non absorbet. Porro ecclesiarum prelati qui in exhibenda iustitia crucesignatis
+          et eorum familiis negligentes extiterint, sciant se grauiter puniendos. ‘ Ceterum quia
+          cursarii et pirate nimis impediunt subsidium Terre Sancte, capiendo et expoliando
+          transeuntes ad illam et redeuntes ab ipsa, nos eos et principales adiutores et fautores
+          eorum excommunicationis uinculo innodamus, sub interminatione anathematis
+          inhibentes ne quis cum eis scienter communicet in aliquo uenditionis uel emptionis
+          contractu, et iniungentes rectoribus ciuitatum et locorum suorum, ut eos ab hac
+          iniquitate reuocent et compescant; alioquin, quia nolle perturbare peruersos, nichil est
+          aliud quam fouere, nec caret scrupulo societatis occulte, qui manifesto facinori desinit
+          obuiare, in personas et terras eorum per ecclesiarum prelatos seueritatem
+          ecclesiasticam uolumus et precipimus exerceri ’. 5 Excommunicamus preterea et
+          anathematizamus illos falsos et impios christianos qui contra ipsum Christum et
+          populum christianum ‘ Saracenis arma, ferrum et lignamina deferunt galearum; eos
+          etiam qui galeas eis uendunt uel naues, quique in piraticis Saracenorum nauibus curam
+          gubernationis exercent uel in machinis aut quibuslibet aliis aliquod eis impendunt con-
+          silium et auxilium in dispendium Terre Sancte, ipsosque rerum suarum priuatione
+          mulctari, et capientium seruos fore censemus. Precipientes ut per omnes urbes
+          maritimas diebus dominicis et festiuis huiusmodi sententia publice innouetur ’, 6 et talibus
+          gremium non aperiatur ecclesie, nisi totum quod ex commercio tam dampnato
+          perceperint, et tantundem de suo in subsidium predicte Terre transmiserint, ut equo
+          iudicio in quo deliquerint puniantur. 7 Quod si forte soluendo non fuerint, sic alias reatus
+          talium castigetur, quod in pena ipsorum aliis interdicatur audacia similia presumendi.
+          Prohibemus insuper omnibus christianis et sub anathemate interdicimus, ne in terras
+          Saracenorum, qui partes orientales inhabitant, usque ad quadriennium transmittant aut
+          transuehant naues suas, ut per hoc uolentibus transfretare in subsidium Terre Sancte
+          maior nauigii copia preparetur et Saracenis predictis subtrahatur auxilium, quod eis
+          consueuit ex hoc non modicum peruenire. Licet autem torneamenta sint in diuersis
+          conciliis 8 sub certa pena generaliter interdicta, quia tamen hoc tempore crucis negotium
+          per ea plurimum impeditur, nos illa sub pena excommunicationis firmiter prohibemus
+          usque ad triennium exerceri. Quia uero
+          ad hoc negotium exequendum, est permaxime necessarium ut principes et populi
+          christiani ad inuicem pacem obseruent, sancta uniuersali synodo suadente statuimus, ut
+          saltem per quadriennium in toto orbe christiano pax generaliter obseruetur, ita quod per
+          ecclesiarum prelatos discordantes reducantur ad plenam pacem aut firmam treugam
+          inuiolabiliter obser- uandam; et qui acquiescere forte contempserint, per
+          excommunicationem in personas et interdictum in terras arctissime compellantur, nisi
+          tanta fuerit iniuriatorum malitia, quod ipsi tali non debeant pace gaudere. Quod si forte
+          censuram ecclesiasticam uilipenderint, poterint non immerito formidare, ne per
+          auctoritatem ecclesie contra eos, tanquam perturbatores negotii crucifixi, secularis
+          potentia inducatur. c Nos ergo de omnipotentis Dei misericordia et beatorum
+          apostolorum Petri et Pauli auctoritate confisi, ex illa quam nobis, licet indignis, Deus
+          ligandi atque soluendi contulit potestatem, 9 omnibus qui laborem istum in propriis
+          personis subierint et expensis, plenam suorum peccaminum de quibus ueraciter fuerint
+          corde contriti et ore confessi ueniam indulgemus et in retributione &#39; iustorum salutis
+          eterne pollicemur augmentum. Eis autem qui non in propriis personis illuc accesserint,
+          set in suis dumtaxat expensis iuxta facultatem et qualitatem suam uiros idoneos
+          destinauerint, et illis similiter
+          qui licet in alienis expensis, in propriis tamen personis accesserint, plenam suorum
+          concedimus ueniam peccatorum. Huius quoque remissionis uolumus et concedimus
+          esse participes, iuxta quantitatem subsidii et deuo- tionis affectum, omnes qui ad
+          subuentionem ipsius Terre de bonis suis congrue ministrabunt ’, 10 aut circa predicta
+          consilium et auxilium impenderint opportunum, omnibus etiam pie proficientibus in hoc
+          opere sancta et uniuersalis synodus orationum et beneficiorum suorum suffragium
+          impertitur, ut eis digne proficiat ad salutem. Amen.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

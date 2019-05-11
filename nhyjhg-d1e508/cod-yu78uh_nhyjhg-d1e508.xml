@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 57 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 57 [Bodmer Transcription]</title>
+          <date when="2019-05-11">May 11, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-05-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="38-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e508">
+        <head>Canon 57</head>
+        <p>57. Vt priuilegia, que quibusdam religiosis personis Romana concessit ecclesia, 1
+          permaneant inconuulsa, quedam in eis duximus declaranda, ne minus sane intellecta
+          pertrahant ad abusum, propter quem possent merito reuocari, quia priuilegium meretur
+          amittere qui permissa sibi abutitur potestate. Sane quibusdam regularibus apostolica
+          sedes indulsit ut hiis qui eorum fraternitatem assumpserint, si forsan ecclesie ad quas
+          pertinent a diuinis fuerint officiis interdicte, ipsosque mori contingerit, sepultura
+          ecclesiastica non negetur, nisi excommunicati uel nominatim fuerint interdicti, suos
+          quoque confratres, quos ecclesiarum
+          prelati apud ecclesias suas non permiserint sepeliri, nisi excommunicati uel interdicti
+          fuerint nominatim, ipsi ad ecclesias suas deferant tumulandos. Hoc autem de illis
+          confratribus intelligimus qui, uel adhuc manentes in seculo eorum ordini sunt oblati,
+          mutato habitu seculari, uel eis inter uiuos sua bona dederunt, retento sibi quamdiu in
+          seculo uixerint usufructu, qui tamen sepeliantur apud ipsorum regularium uel aliorum
+          non interdictas ecclesias in quibus elegerint sepulturam, ne, si de quibuslibet ipsorum
+          fraternitatem assumentibus fuerit intellectum, pro duobus aut tribus denariis annuatim
+          sibi collatis dissoluatur pariter et uilescat ecclesiastica disciplina; certam tamen et ipsi
+          remissionem optineant ab apostolica sibi sede concessam. Illud etiam quod huiusmodi
+          regularibus est indultum, ut si qui fratrum suorum, qui ab eis missi fuerint ad recipiendas
+          fraternitates siue collectas, in quamlibet ciuitatem, castellum uel uicum aduenerint, si
+          forte locus ille a diuinis sit officiis interdictus, in eorum iocundo aduentu semel in anno
+          aperiantur ecclesie, ut exclusis excommunicatis diuina ibi officia celebrentur, sic intelligi
+          uolumus quod in eadem ciuitate aut castro uel uilla una tantum ecclesia eiusdem ordinis
+          fratribus semel, ut dictum est, aperiatur in anno, quia licet pluraliter dictum sit quod in
+          eorum iocundo aduentu aperiantur ecclesie, non tamen ad ecclesias eiusdem loci
+          diuisim, set predictorum locorum coniunctim, sano referendum est intellectu, ne si hoc
+          modo singulas eiusdem loci eccle-
+          sias uisitarent, nimium uilipendii contingeret sententiam interdicti. Qui uero contra
+          declarationes prescriptas quicquam sibi presumpserint usurpare, graui subiaceant
+          discipline.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

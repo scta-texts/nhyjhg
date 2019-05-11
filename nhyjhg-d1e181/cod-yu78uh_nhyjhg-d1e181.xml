@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 17 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 17 [London Transcription]</title>
+          <date when="2019-03-22">March 22, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="32-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e181">
+        <head>Canon 17</head>
+        <p>17. Dolentes referimus quod non solum quidam minores clerici, uerum etiam aliqui
+          ecclesiarum prelati, circa comessationes superfluas et confabulationes illicitas, ut de
+          aliis taceamus, fere medietatem noctis expendunt et sompno residuum relinquentes, uix
+          ad diurnum concentum auium excitantur, transcurrendo continuata undique syncopa
+          matutinum. Sunt et alii qui missarum sollempnia uix celebrant quater in anno et, quod
+          deterius est, interesse contempnunt, et si quando dum hec celebrantur intersint, chori
+          silentium fugientes, intendunt exterius collocutionibus laicorum, dumque auditum ad
+          indebitos sermones effundunt, aures intentas non porrigunt ad diuina. Hec igitur et
+          similia sub pena suspensionis penitus inhibemus, districte precipientes in uirtute
+          obedientie ut diuinum officium nocturnum pariter et diurnum, quantum eis Deus dederit,
+          studiose celebrent et deuote.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

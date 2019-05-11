@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 32 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 32 [Bodmer Transcription]</title>
+          <date when="2019-05-11">May 11, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-05-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="34-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e304">
+        <head>Canon 32</head>
+        <p>32. Extirpande consuetudinis uitium in quibusdam partibus inoleuit, quod scilicet
+          patroni ecclesiarum parochialium et alie quedam persone,
+          prouentus ipsarum sibi pene penitus uendicantes, presbyteris earundem seruitio
+          deputatis relinquunt adeo exiguam portionem ut ex ea congrue nequeant sustentari.
+          Nam ut pro certo didicimus, in quibusdam regionibus parochiales presbyteri pro sua
+          sustentatione non optinent nisi quartam quarte, idest sextamdecimam decimarum. Vnde
+          fit ut in hiis regionibus pene nullus inueniatur parochialis sacerdos qui uel modicam
+          habeat peritiam litterarum. Cum igitur os bouis alligari non debeat triturantis, 1 set qui
+          seruit altario uiuere debeat de altari, 2 statuimus ut, consuetudine qualibet episcopi uel
+          patroni seu cuiuscumque alterius non obstante, portio presbyteris ipsis sufficiens
+          assignetur. Qui uero parochialem habet ecclesiam, non per uicarium set per se ipsum
+          illi deseruiat in ordine quem ipsius ecclesie cura requirit, nisi forte prebende uel dignitati
+          parochialis ecclesia sit annexa, in quo casu concedimus ut is qui talem habet
+          prebendam uel dignitatem, cum oporteat eum in maiori ecclesia deseruire, in ipsa
+          parochiali ecclesia idoneum et perpetuum studeat habere uicarium canonice institutum,
+          qui, ut predictum est, congruentem habeat de ipsius ecclesie prouentibus portionem.
+          Alioquin illa se sciat huius decreti auctoritate priuatum, libere alii conferenda qui uelit et
+          possit quod predictum est adimplere. Illud autem penitus interdicimus ne quis in
+          fraudem
+          de prouentibus ecclesie, que curam debet habere proprii sacerdotis, pensionem alii
+          quasi pro beneficio conferre presumat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

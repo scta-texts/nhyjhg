@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 24 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 24 [London Transcription]</title>
+          <date when="2019-03-29">March 29, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="33-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e239">
+        <head>Canon 24</head>
+        <p>24. Quia propter diuersas electionum formas, quas quidam inuenire conantur, et
+          multa impedimenta proueniunt et magna pericula imminent ecclesiis uiduatis, statuimus
+          ut cum electio fuerit celebranda, presentibus omnibus qui debent et uolunt et possunt
+          commode interesse, assumantur tres de collegio fide digni, qui secreto et singillatim
+          uota cunctorum diligenter exquirant, et in scriptis redacta, mox publicent in communi,
+          nullo prorsus appellationis obstaculo interiecto, ut is collatione habita eligatur, in quem
+          omnes uel maior et sanior pars consentit; uel saltem eligendi potestas aliquibus uiris
+          idoneis committatur, qui uice omnium ecclesie uiduate prouideant de pastore. Aliter
+          electio facta non ualeat, nisi forte communiter esset ab omnibus, quasi per
+          inspirationem, absque uitio celebrata. Qui uero contra prescriptas formas eligere
+          attemptauerint, eligendi ea uice potestate priuentur. Illud autem penitus interdicimus, ne
+          quis in electionis negotio procuratorem constituat, nisi sit absens in eo loco de quo
+          debeat aduocari iustoque impedimento detentus uenire non possit; super quo si opus
+          fuerit, fidem faciat iuramento, et tunc si uoluerit uni committat
+          de ipso collegio uicem suam. Electiones quoque clandestinas reprobamus, statuentes
+          ut quam cito electio fuerit celebrata, sollempniter publicetur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

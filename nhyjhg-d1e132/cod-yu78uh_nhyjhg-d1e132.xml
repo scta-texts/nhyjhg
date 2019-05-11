@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 11 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 11 [London Transcription]</title>
+          <date when="2019-03-22">March 22, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="31-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e132">
+        <head>Canon 11</head>
+        <p>11. Quia nonnullis propter inopiam et legendi studium et opportunitas proficiendi
+          subtrahitur, in Lateranensi concilio pia fuit constitutione prouisum ut ‘ per unamquamque
+          cathedralem ecclesiam magistro, qui clericos eiusdem ecclesie aliosque scolares
+          pauperes gratis instrueret, aliquod competens beneficium preberetur, quo et docentis
+          releuaretur necessitas et uia pateret discentibus ad doctrinam. Verum quoniam in multis
+          ecclesiis id minime obseruatur, nos, predictum roborantes statutum, adicimus ut non
+          
+          solum in qualibet cathedrali ecclesia set etiam in aliis quarum sufficere potuerint
+          facultates, constituatur magister idoneus a prelato, cum capitulo seu maiori ac saniori
+          parte capituli eligendus, qui clericos ecclesiarum ipsarum et aliarum gratis in
+          grammatica facultate ac aliis instruat iuxta posse. Sane metropolitana ecclesia
+          theologum nichilominus habeat, qui sacerdotes et alios in sacra pagina doceat, et in hiis
+          presertim informet que ad curam animarum spectare noscuntur. Assignetur autem
+          cuilibet magistrorum a capitulo unius prebende prouentus et a metropolitano
+          tantumdem, non quod per hoc efficiatur cano-
+          nicus, set tamdiu redditus ipsos percipiat quamdiu perstiterit in docendo. Quod si forte
+          de duobus ecclesia metropolitana grauetur, theologo iuxta modum predictum ipsa
+          prouideat, grammatico uero in alia ecclesia sue ciuitatis siue diocesis, que sufficere
+          ualeat, faciat prouideri.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

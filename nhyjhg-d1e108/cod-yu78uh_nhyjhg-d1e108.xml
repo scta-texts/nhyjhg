@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 8 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 8 [London Transcription]</title>
+          <date when="2019-03-22">March 22, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="30-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e108">
+        <head>Canon 8</head>
+        <p>8. ‘ Qualiter et quando debeat prelatus procedere ad inquirendum et puniendum
+          subditorum excessus, ex auctoritatibus Noui et Veteris
+          Testamenti colligitur euidenter, ex quibus postea processerunt canonice sanctiones V
+          sicut olim aperte distinximus et nunc sacri approbatione concilii confirmamus. “ Legitur
+          enim in Euangelio quod uillicus ille qui diffamatus erat apud dominum suum, quasi
+          
+          dissipasset bona illius, audiuit ab illo ‘ Quid hoc audio de te? Redde rationem
+          uillicationis tue; iam enim non poteris uillicare ’. 2 Et in Genesi Dominus ait ‘ Descendam
+          et uidebo utrum clamorem qui uenit ad me opere compleuerint ’. 3 Ex quibus
+          auctoritatibus manifeste probatur quod non solum cum subditus uerum etiam cum
+          prelatus excedit, si per clamorem et famam ad aures superioris peruenerit, non quidem
+          a maleuolis et maledicis set a prouidis et honestis, nec semel tantum set sepe, quod
+          clamor innuit et diffamatio manifestat, debet coram ecclesie senioribus ueritatem
+          diligentius perscrutari, ut si rei poposcerit qualitas, canonica districtio culpam feriat
+          delinquentis, non tanquam sit actor et iudex, set quasi deferente fama uel denunciante
+          clamore officii sui debitum exequatur. Licet autem hoc sit obseruandum in subditis,
+          diligentius tamen obseruandum est in prelatis, qui ‘ quasi signum ’ sunt positi ‘ ad
+          sagittam ’. 4 Et quia non possunt omnibus complacere, cum ex officio teneantur non
+          solum arguere set etiam increpare, quin etiam interdum suspendere, nonnunquam uero
+          ligare, frequenter odium multorum incurrunt et insidias patiuntur. Et ideo sancti patres
+          prouide statuerunt 5 ut accusatio Prelatorum non facile admittatur, ne concussis
+          columpnis corruat edificium, nisi diligens adhibeatur cautela, per quam non solum false
+          set etiam maligne criminationis ianua precludatur. Verum ita uoluerunt prouidere prelatis
+          ne criminarentur iniuste, ut tamen caue-
+          rent ne delinquerent insolenter, contra morbum utrumque inuenientes congruam
+          medicinam, uidelicet ut criminalis accusatio que ad diminu- tionem capitis, idest
+          degradationem, intenditur, nisi legitima precedat inscriptio, nullatenus admittatur. Set
+          cum super excessibus suis quisquam fuerit infamatus, ut iam clamor ascendat qui
+          diutius sine scandalo dissimulari non possit uel sine periculo tolerari, absque
+          dubitationis scrupulo ad inquirendum et puniendum eius excessus, non ex odii fomite,
+          set caritatis procedatur affectu, quatenus si fuerit grauis excessus, etsi non degradetur
+          ab ordine, ab amministratione tamen amoueatur omnino, quod est secundum
+          sententiam euangelicam a uillicatione uillicum amoueri, qui non potest uillicationis sue
+          dignam reddere rationem ”. 6 Debet igitur esse presens is contra quem facienda est
+          inquisitio, nisi se per contumaciam absentauerit. Et exponenda sunt illi capitula de
+          quibus fuerit inquirendum, ut facultatem habeat defendendi seipsum, et non solum
+          dicta, set etiam ipsa nomina testium sunt ei, ut quid a quo sit dictum appareat,
+          publicanda, necnon exceptiones et replicationes legitime admittende, ne per
+          suppressionem nominum infamandi, per exceptionum uero exclusionem deponendi
+          falsum audacia prebeatur. Ad corrigendos itaque subditorum excessus tanto diligentius
+          debet prelatus assurgere, quanto dampna- bilius eorum offensas desereret incorrectas,
+          contra quos, ut de notoriis
+          excessibus taceatur, etsi tribus modis possit procedi, per accusationem uidelicet,
+          denunciationem et inquisitionem ipsorum, ut tamen in omnibus diligens adhibeatur
+          cautela, ne forte per leue compendium ad graue dispendium ueniatur, sicut
+          accusationem legitima precedere debet inscriptio, sic et denunciationem caritatiua
+          
+          monitio, et inquisitionem clamosa insinuatio preuenire, illo semper adhibito moderamine
+          ut iuxta formam iudicii sententie quoque forma dictetur. Hunc tamen ordinem circa
+          regulares personas non credimus usquequaque seruandum, que, cum causa requirit,
+          facilius et liberius a suis possunt amministrationibus amoueri.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 44 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 44 [Bodmer Transcription]</title>
+          <date when="2019-05-11">May 11, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-05-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="36-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e402">
+        <head>Canon 44</head>
+        <p>44. ‘Cum laicis quamuis religiosis disponendi de rebus ecclesiasticis nulla sit
+          attributa potestas, quos subsequendi manet necessitas, non auctoritas imperandi’,
+          dolemus sic in quibusdam ex illis refrigescere caritatem quod immunitatem ecclesiastice
+          libertatis, quam nedum sancti patres set etiam principes seculares multis priuilegiis
+          munierunt, non formidant suis constitutionibus uel potius confictionibus impugnare, non
+          solum de alienatione feudorum ac aliarum possessionum ecclesiasticarum et
+          usurpatione iurisdictionum, set etiam de mortuariis nec non et aliis que iuri spirituali
+          uidentur annexa, illicite presumendo. Volentes igitur super hiis ecclesiarum indempnitati
+          consulere ac tantis grauaminibus prouidere, constitutiones huiusmodi et uenditiones
+          feudorum seu aliorum bonorum ecclesiarum, sine legitimo ecclesiasticarum personarum
+          assensu presumptas, occasione constitutionis laice potestatis, cum non constitutio set
+          destitutio uel destructio dici possit nec non usurpatio iurisdictionum, sacri approbatione concilii
+          decernimus non tenere, presumptoribus per censuram ecclesiasticam compescendis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

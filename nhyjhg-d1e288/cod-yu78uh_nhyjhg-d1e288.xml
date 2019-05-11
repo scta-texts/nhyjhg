@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 30 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 30 [London Transcription]</title>
+          <date when="2019-03-29">March 29, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="34-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e288">
+        <head>Canon 30</head>
+        <p>30. Graue nimis est et absurdum quod quidam ecclesiarum prelati, cum possint uiros
+          idoneos ad ecclesiastica beneficia promouere, assumere
+          non uerentur indignos, quibus nec morum honestas nec litterarum scientia suffragatur,
+          carnalitatis sequentes affectum, non iudicium rationis. Vnde quanta ecclesiis dampna
+          proueniant, nemo sane mentis ignorat. Volentes igitur huic morbo mederi, precipimus ut
+          pretermissis indignis assumant idoneos, qui Deo et ecclesiis uelint et ualeant gratum
+          impendere famulatum fiatque de hoc in prouinciali concilio diligens inquisitio annuatim.
+          Ita quod qui post primam et secundam correctionem fuerit repertus culpabilis, a
+          conferendis beneficiis per ipsum concilium suspendatur, instituta in eodem concilio
+          persona prouida et honesta que suppleat suspensi defectum in beneficiis conferendis;
+          et hoc ipsum circa capitula que in hiis deliquerint, obseruetur. Metropolitani uero
+          delictum superioris iudicio relinquatur ex parte concilii nunciandum. Vt autem hec
+          salubris prouisio pleniorem consequatur effectum, huiusmodi suspensionis sententia,
+          preter conscientiam Romani pontificis aut proprii patriarche minime relaxetur, ut in hoc
+          quoque quatuor patriarchales sedes specialiter honorentur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

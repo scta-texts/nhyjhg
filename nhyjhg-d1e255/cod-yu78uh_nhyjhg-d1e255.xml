@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lateran IV, Canon 26 [Bodmer Transcription]</title>
+        <author>Innocent IV</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>Rowan Dorin</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lateran IV, Canon 26 [London Transcription]</title>
+          <date when="2019-03-29">March 29, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-yu78uh">Bodmer 80</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="34-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="nhyjhg-d1e255">
+        <head>Canon 26</head>
+        <p>26. Nihil est quod ecclesie Dei magis officiat quam quod indigni assumantur prelati
+          ad regimen animarum. Volentes igitur huic morbo necessariam adhibere medelam,
+          irrefragabili constitutione sancimus quatenus cum quisquam ad regimen fuerit
+          animarum electus, is ad quem
+          1 ipsius pertinet confirmatio, diligenter examinet et electionis processum et personam
+          electi, ut cum omnia rite concurrerint, munus ei confirmationis impendat; quia si secus
+          fuerit incaute presumptum, non solum deiciendus est indigne promotus, uerum etiam
+          indigne promouens puniendus. Ipsum- que decernimus hac animaduersione puniri, ut
+          cum de ipsius constiterit
+          1 negligentia, maxime si hominem insufficientis scientie uel inhoneste uite aut etatis
+          illegitime approbauerit, non solum confirmandi primum succes-
+          sorem illius careat potestate, uerum etiam, ne aliquo casu penam effugiat, a
+          perceptione proprii beneficii suspendatur, quousque, si equum fuerit, indulgentiam
+          ualeat promereri. Si uero conuictus fuerit in hoc per malitiam excessisse, grauiori
+          subiaceat ultioni. Episcopi quoque tales ad sacros ordines et ecclesiasticas dignitates
+          promouere procurent, qui commissum sibi officium digne ualeant adimplere, si et ipsi
+          canonicam cupiunt effugere ultionem. Ceterum, qui ad Romanum pertinent immediate
+          pontificem, ad percipiendam sui confirmationem officii, eius se conspectui, si 1
+          commode potest fieri, personaliter representent uel personas transmittant idoneas, per
+          quas diligens inquisitio super electionibus et electis possit haberi, ut sic demum per
+          ipsius circumspectionem consilii sui plenitudinem officii assequantur, cum eis nichil
+          obstiterit de canonicis institutis, ita quod interim ualde remoti, uidelicet ultra Italiam
+          constituti, si electi fuerint 1 in concordia, dispensatiue propter necessitates et utilitates
+          ecclesiarum, in spiritualibus et temporalibus amministrent, sic tamen ut de rebus
+          ecclesiasticis nichil penitus alienent. Munus uero consecrationis seu benedictionis
+          recipiant, sicut hactenus recipere consueuerunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
