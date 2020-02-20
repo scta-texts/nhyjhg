@@ -51,22 +51,18 @@
     <body>
       <div xml:id="nhyjhg-d1e598">
         <head>Canon 68</head>
-        <p>68. In nonnullis prouinciis a christianis Iudeos seu Saracenos habitus distinguit
-          diuersitas, set in quibusdam sic quedam inoleuit confusio ut nulla differentia
-          discernantur. Vnde contingit interdum quod per errorem christiani Iudeorum seu
-          Saracenorum et Iudei seu Saraceni Christianorum mulieribus commiscentur. Ne igitur
-          tam dampnate commixtionis excessus, per uelamentum erroris huiusmodi, excusationis
-          ulterius possit habere diffugium, statuimus ut tales utriusque sexus, in omni
-          Christianorum prouincia et omni tempore, qualitate habitus publice ab aliis populis
-          distinguantur, cum et per Moysen hoc ipsum eis legatur iniunctum. 1 In diebus autem
-          lamentationum et dominice passionis, in publicum minime
-          prodeant, eo quod nonnulli ex ipsis talibus diebus, sicut accepimus, et ornatius non
-          erubescunt incedere, ac christianis, qui sacratissime passionis memoriam exhibentes
-          lamentationis signa pretendunt, illudere non formidant. Illud autem districtissime
-          inhibemus ne in contumeliam Redemptoris aliquatenus prosilire presumant. Et quoniam
-          illius dissimulare non debemus opprobrium qui probra nostra deleuit, precipimus
-          presumptores huiusmodi per principes seculares condigne animaduersionis adiectione
-          compesci, ne crucifixum pro nobis aliquatenus blasphemare presumant.</p>
+        <p>
+          <lb ed="#B" n="28"/>In nonnullis prouinciis a christianis iudaeos seu sarracenos habitus distinguit diuersitas sed in quibusdam sic quaedam inoleuit confusio 
+          <pb ed="#B" n="40-v"/>
+          <lb ed="#B"/>ut nulla differentia discernantur Vnde contingit interdum quod per errorem christianorum iudaei seu sarraceni et iudaeorum seu sarracenorum christiani 
+          <lb ed="#B"/>mulieribus commiscentur Ne igitur tam dampnatae commixtionis excessus per uelamentum erroris huiusmodi excusationis ulterius possit 
+          <lb ed="#B"/>habere diffugium statuimus ut tales utriusque sexus in omni christianorum prouincia et omni tempore qualitate habitus publicae ab aliis populis distin<lb ed="#B" break="no"/>guantur 
+          cum et per moysen hoc ipsum eis legatur iniunctum. In diebus autem lamentationum et dominicae passionis in publicum minime prodeant 
+          <lb ed="#B"/>eo quod nonnulli ex ipsis talibus diebus sicut accepimus et ornatius <!--non "non" not present; seems important --> erubescunt incedere ac christianis qui sacratissime passionis me<lb ed="#B" break="no"/>moriam 
+          exhibentes lamentationis signa praetendunt illudere non formidant Illud autem districtissime inhibemus ne in contume<lb ed="#B" break="no"/>liam 
+          redemptoris aliquatenus prosilire praesumant et quoniam illius dissimulare non debemus opprobrium qui probra nostra deleuit praecipimus praesumpto<lb ed="#B" break="no"/>res 
+          huiusmodi per principes saeculares condignae animaduersionis adiectione compesci ne crucifixum pro nobis praesumant aliquatenus blasphemare 
+        </p>
       </div>
     </body>
   </text>
