@@ -50,14 +50,13 @@
     </front>
     <body>
       <div xml:id="nhyjhg-d1e606">
-        <head>Canon 69</head>
-        <p>
+        <head xml:id="nhyjhg-d1e606-Hd1e98">Canon 69</head>
+        <p xml:id="nhyjhg-d1e606-d1e101">
           <lb ed="#B" n="37"/>Cum sit nimis absurdum ut christi blasphemus in christianos uim potestatis exerceat quod super hoc Tholetanum concilium prouide statuit 
           <lb ed="#B"/>nos propter transgressorum audaciam in hoc generali concilio innouamus prohibentes ne Iudaei officiis publicis praeferantur <!--quoniam sub tali pretextu christianis plurimum sunt infesti (not present)--> Si quis autem eis tale 
           <lb ed="#B"/>officium commiserit per prouinciale concilium quod singulis annis praecipimus celebrari monitione praemissa districtione qua conuenit compescatur Officia<lb ed="#B" break="no"/>li 
           uero huiusmodi tamdiu christianorum communio in commerciis et aliis denegetur donec in usus pauperum christianorum secundum prouidentiam dyocesani episcopi conuertatur 
-          <lb ed="#B"/>quicquid fuerit a christianis adeptus occasione officii sic suscepti et officium cum pudore dimittat quod irreuerenter assumpsit Hoc idem ex<!--drop to end of next line-->tendimus 
-          ad Paganos
+          <lb ed="#B"/>quicquid fuerit a christianis adeptus occasione officii sic suscepti et officium cum pudore dimittat quod irreuerenter assumpsit Hoc idem ex<!--drop to end of next line-->tendimus ad Paganos
         </p>
       </div>
     </body>
